@@ -15,21 +15,15 @@ The [.NET Upgrade Assistant](upgrade-assistant-overview.md) is a command-line to
 
 This section demonstrates running the .NET Upgrade Assistant against a newly created WPF app targeting .NET Framework 4.6.1. For more information on how to install the tool, see [Overview of the .NET Upgrade Assistant](upgrade-assistant-overview.md).
 
-### Initial demo setup
+## Demo app
 
-If you're running the .NET Upgrade Assistant against your own .NET Framework app, you can skip this step. If you just want to try it out to see how it works, this step shows you how to set up a sample .NET WPF project to use.
+If you want to test out upgrading a WPF app, download the [Basic WPF Sample]() project.
 
-Using Visual Studio, create a new WPF App using .NET Framework.
+## Analyze your app
 
-:::image type="content" source="media/upgrade-assistant-wpf-framework/new-project.png" alt-text="New WPF project in Visual Studio":::
+The .NET Upgrade Assistant tool 
 
-Name the project **WpfTest**. Configure the project to use **.NET Framework 4.6.1**.
-
-:::image type="content" source="media/upgrade-assistant-wpf-framework/configure-project.png" alt-text="Configure Windows Forms project in Visual Studio":::
-
-Review the created project and its files, especially its project file(s).
-
-### Run upgrade-assistant
+## Run upgrade-assistant
 
 Open a terminal and navigate to the folder where the target project or solution is located. Run the `upgrade-assistant` command, passing in the name of the project you're targeting (you can run the command from anywhere, as long as the path to the project file is valid).
 
