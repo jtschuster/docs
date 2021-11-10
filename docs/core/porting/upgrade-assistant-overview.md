@@ -1,12 +1,12 @@
 ---
 title: Overview of the .NET Upgrade Assistant
-description: Introducing the .NET Upgrade Assistant tool that helps migrate from .NET Framework and upgrades your projects to .NET 5.
+description: Introducing the .NET Upgrade Assistant tool that helps migrate from .NET Framework and upgrades your projects to .NET 6.
 author: adegeo
-ms.date: 06/01/2021
+ms.date: 11/08/2021
 ---
 # Overview of the .NET Upgrade Assistant
 
-You might have apps that currently run on the .NET Framework that you're interested in porting to .NET 5. The .NET Upgrade Assistant tool can assist with this process. This article provides:
+You might have apps that currently run on the .NET Framework that you're interested in porting to .NET 6. The .NET Upgrade Assistant tool can assist with this process. This article provides:
 
 - An overview of the .NET Upgrade Assistant.
 - How to install the .NET Upgrade Assistant.
@@ -56,7 +56,7 @@ dotnet tool update -g upgrade-assistant
 
 ## See also
 
-- [Upgrade an ASP.NET MVC App to .NET 5](upgrade-assistant-aspnetmvc.md)
-- [Upgrade a WPF App to .NET 5](upgrade-assistant-wpf-framework.md)
-- [Upgrade a Windows Forms App to .NET 5](upgrade-assistant-winforms-framework.md)
+- [Upgrade an ASP.NET MVC App to .NET 6](upgrade-assistant-aspnetmvc.md)
+- [Upgrade a WPF App to .NET 6](upgrade-assistant-wpf-framework.md)
+- [Upgrade a Windows Forms App to .NET 6](upgrade-assistant-winforms-framework.md)
 - [.NET Upgrade Assistant GitHub Repository](https://github.com/dotnet/upgrade-assistant)
